@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* :not(#first-box,
+    #second-box) {
+    /* background-color: #ffefa1; */
+    background: #e6dada;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e6dada, #274046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e6dada, #274046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    /* background-color: #ccffbd; */
+    border: 5px dotted green;
+    color: rgb(150, 48, 48);
+    margin: 30px 50px 30px 50px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    color: #630000;
+    margin-bottom: 35px;
+}
+
+
+.boxes {
+    display: grid;
+}
+
+
+#btn {
+    color: #630000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding:10px;
+    width: 250px;
+    
+}
+
+#btn:hover {
+    background-color: rgb(148, 219, 219);
+    transform: scale(1.5);
+}
+
+#reset {
+    color: #630000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding:10px;
+    width: 250px;
+}
+
+#reset:hover {
+    transform: scale(1.5);
+}
+
+#edit{
+    color: #630000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 250px;
+}
+
+#edit:hover {
+    transform: scale(1.5);
+}
+
+
+#first-box,
+#second-box {
+    background-color: rgb(243, 237, 237);
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+    width: 50%;
+}
+
+footer {
+    font-size: 20px;
+    color: #e6dada;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+   text-align: center;
+
+}
+
+a:hover {
+    color: #f30a31;
+}
+
+/* Extra small devices (phones, 600px and down */
+@media (max-width: 600px) {
+
+    #first-box,
+    #second-box {
+        background-color: rgb(243, 237, 237);
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        resize: none;
+        width: 100%;
+    }
+
+
+    #btn {
+        margin-left: 5%;
+    }
+
+    #reset {
+        margin-left: 5%;
+    }
+
+     #edit {
+         margin-left: 5%;
+     }
+
+    h1 {
+        margin: auto;
+        overflow: hidden;
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 15px;
+        color: #3a612f;
+        margin-bottom: 35px;
+    }
+}
+
+/* medium devices (landscape tablets and large phones 768 and down */
+@media (max-width: 768px) {
+
+    #first-box,
+    #second-box {
+        background-color: rgb(243, 237, 237);
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        resize: none;
+        width: 100%;
+    }
+
+    #btn {
+        margin-left: 20%;
+    }
+
+    #reset {
+        margin-left: 20%;
+    }
+
+     #edit {
+         margin-left: 20%;
+     }
+}
+
+@media (max-width: 1200px) {
+
+    #first-box,
+    #second-box {
+        background-color: rgb(243, 237, 237);
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        resize: none;
+        width: 100%;
+    }
+
+    #btn {
+        margin-left: 20%;
+    }
+
+    #reset {
+        margin-left: 20%;
+    }
+
+    #edit {
+        margin-left: 20%;
+    }
+}
